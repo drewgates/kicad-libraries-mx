@@ -91,6 +91,52 @@ componentsList = {
     (rotate (xyz 0 0 0))
   )""",
 
+    "SK6812Mini-E": """
+  (fp_text reference REF** (at -7.2 7.15) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value MX_SK6812MINI-E_REV (at -0.65 8.55) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start -0.794452 3.58) (end 0.794452 3.58) (layer Edge.Cuts) (width 0.1))
+  (fp_line (start -1.699999 5.782842) (end -1.699999 4.377158) (layer Edge.Cuts) (width 0.1))
+  (fp_line (start 0.794452 6.579999) (end -0.794453 6.579999) (layer Edge.Cuts) (width 0.1))
+  (fp_line (start 1.699999 4.377158) (end 1.699999 5.782842) (layer Edge.Cuts) (width 0.1))
+  (fp_poly (pts (xy -4.2 4.08) (xy -3.3 3.18) (xy -4.2 3.18)) (layer B.SilkS) (width 0.1))
+  (fp_line (start -1.6 4.18) (end -1.1 3.68) (layer Dwgs.User) (width 0.12))
+  (fp_line (start -1.6 4.18) (end -1.6 6.48) (layer Dwgs.User) (width 0.12))
+  (fp_line (start 1.6 3.68) (end -1.1 3.68) (layer Dwgs.User) (width 0.12))
+  (fp_line (start 1.6 6.48) (end 1.6 3.68) (layer Dwgs.User) (width 0.12))
+  (fp_line (start -1.6 6.48) (end 1.6 6.48) (layer Dwgs.User) (width 0.12))
+  (fp_line (start 3.8 7.08) (end 3.8 3.08) (layer B.CrtYd) (width 0.05))
+  (fp_line (start 3.8 3.08) (end -3.8 3.08) (layer B.CrtYd) (width 0.05))
+  (fp_line (start -3.8 3.08) (end -3.8 7.08) (layer B.CrtYd) (width 0.05))
+  (fp_line (start -3.8 7.08) (end 3.8 7.08) (layer B.CrtYd) (width 0.05))
+  (fp_line (start -9.525 9.525) (end -9.525 -9.525) (layer Dwgs.User) (width 0.15))
+  (fp_line (start 9.525 9.525) (end -9.525 9.525) (layer Dwgs.User) (width 0.15))
+  (fp_line (start 9.525 -9.525) (end 9.525 9.525) (layer Dwgs.User) (width 0.15))
+  (fp_line (start -9.525 -9.525) (end 9.525 -9.525) (layer Dwgs.User) (width 0.15))
+  (fp_text user 1 (at 2.5 7.08 90) (layer B.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+  )
+  (fp_arc (start 1.298969 3.943403) (end 1.749484 4.16028) (angle -146.0053744) (layer Edge.Cuts) (width 0.1))
+  (fp_arc (start 2.199999 4.377158) (end 1.749484 4.16028) (angle -25.70611205) (layer Edge.Cuts) (width 0.1))
+  (fp_arc (start 2.199999 5.782842) (end 1.699999 5.782842) (angle -25.70611954) (layer Edge.Cuts) (width 0.1))
+  (fp_arc (start 1.298969 6.216598) (end 1.046711 6.648299) (angle -146.0054017) (layer Edge.Cuts) (width 0.1))
+  (fp_arc (start 0.794452 7.079999) (end 1.046711 6.648299) (angle -30.29928212) (layer Edge.Cuts) (width 0.1))
+  (fp_arc (start -0.794453 7.079999) (end -0.794453 6.579999) (angle -30.29922831) (layer Edge.Cuts) (width 0.1))
+  (fp_arc (start -1.298969 6.216597) (end -1.749484 5.99972) (angle -146.0053097) (layer Edge.Cuts) (width 0.1))
+  (fp_arc (start -2.199999 5.782842) (end -1.749484 5.99972) (angle -25.70608136) (layer Edge.Cuts) (width 0.1))
+  (fp_arc (start -2.199999 4.377158) (end -1.699999 4.377158) (angle -25.70617777) (layer Edge.Cuts) (width 0.1))
+  (fp_arc (start -1.298969 3.943402) (end -1.046711 3.511701) (angle -146.0055121) (layer Edge.Cuts) (width 0.1))
+  (fp_arc (start -0.794452 3.08) (end -1.046711 3.511701) (angle -30.29933433) (layer Edge.Cuts) (width 0.1))
+  (fp_arc (start 0.794452 3.08) (end 0.794452 3.58) (angle -30.2992623) (layer Edge.Cuts) (width 0.1))
+  (pad 3 smd roundrect (at 2.6 5.83 90) (size 0.82 1.6) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.1))
+  (pad 4 smd roundrect (at 2.6 4.33 90) (size 0.82 1.6) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.1))
+  (pad 5 smd roundrect (at -2.6 5.83 90) (size 0.82 1.6) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.1))
+  (pad 6 smd roundrect (at -2.6 4.33 90) (size 0.82 1.6) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.1))
+  )""",
+
   "LTST-A683CEGBW-HS": """
   (fp_line (start -1.7 3.25) (end -2 3.25) (layer B.SilkS) (width 0.12))
   (fp_line (start -2 3.25) (end -2 3.55) (layer B.SilkS) (width 0.12))
@@ -161,8 +207,9 @@ componentsList = {
 variants = [
   [None, "PCB"],
   ["Pins", "KailhSocket"],
-  [None, "StabWireTop", "StabWireBottom"],
-  [None, "LED", "LTST-A683CEGBW", "LTST-A683CEGBW-Rotated", "LTST-A683CEGBW-HS", "LTST-A683CEGBW-Rotated-HS"],
+  #[None, "StabWireTop", "StabWireBottom"],
+  #[None, "LED", "LTST-A683CEGBW", "LTST-A683CEGBW-Rotated", "LTST-A683CEGBW-HS", "LTST-A683CEGBW-Rotated-HS"],
+  [None, "PCB","KailhSocket", "SK6812Mini-E"],
 ]
 
 def generateFootprints():
